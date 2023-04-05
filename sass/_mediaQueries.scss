@@ -1,0 +1,98 @@
+
+@media screen and (max-width: 891px){
+    .marcas{
+            display: grid;
+            gap: 4rem;
+        }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 250px ;
+        grid-template-rows: repeat(4, 250px);
+        justify-self: center;
+        align-self: center;
+        align-items: flex-start;
+        gap: 1rem;
+        font-family: 'Abel', sans-serif;
+        }
+
+        .uno{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .dos{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        .cuatro{
+            grid-column: 1/2;
+            grid-row: 4/5;
+            visibility: collapse;
+        }
+
+        .tres{
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+    }
+
+@media screen and (max-width: 720px){
+    .footer{
+        margin: 0;
+        display: grid;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        background-color: #f8ddda;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #f8ddda;
+        justify-content: center;
+    }
+
+    .menuVertical{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 527px){
+    .menuHorizontal{
+        display: grid;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 472px){
+    .descripcion{
+        visibility: collapse;
+        display: none;
+    }
+    .brands{
+        min-width: fit-content;
+    }
+    .marcas{
+        display: grid;
+        gap: 8rem;
+    }
+    .tituloProductos{
+        margin-top: 5rem;
+    }
+}

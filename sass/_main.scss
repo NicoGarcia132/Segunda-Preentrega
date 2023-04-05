@@ -1,0 +1,105 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    background-color: #fbe9e7;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainIndex {
+    background: url(../images/backgrounHome.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.mainAbout {
+    background: url(../images/backgroundAboutus.png);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.products {
+    background: url(../images/backgroundProducts.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+.backgroundBabolat {
+    background: url(../images/backgroundBabolat.png);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.backgroundHead {
+    background: url(../images/backgroundProducts.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.backgroundTecnifibre {
+    background: url(../images/backgroundTecnifibre.png);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+h1{
+    color: rgb(0, 0, 0);
+    opacity: 70%;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    opacity: 65%;
+}
+
+.brands{
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.mainAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.aboutus{
+    margin-top: 1.3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.contenedorContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+.contacto{
+display: flex;
+align-self: center;
+}
+
+.parrafoAboutus{
+    padding-bottom: 15%;
+}
+
+.parrafoIntroduccion{
+    text-align: justify;
+    margin: 4rem;
+}
