@@ -30,7 +30,7 @@ main{
 
 
 .backgroundBabolat {
-    background: url(../images/backgroundBabolat.png);
+    background: url(../images/backgroundTecnifibre.png);
     background-size: cover;
     background-attachment: scroll;
 }
@@ -43,6 +43,12 @@ main{
 
 .backgroundTecnifibre {
     background: url(../images/backgroundTecnifibre.png);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.backgroundWilson {
+    background: url(../images/backgroundProducts.jpg);
     background-size: cover;
     background-attachment: scroll;
 }
@@ -103,3 +109,4 @@ align-self: center;
     text-align: justify;
     margin: 4rem;
 }
+

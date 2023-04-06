@@ -7,3 +7,7 @@
 h1, h2, a, p, .dtl .copyright{
     font-family: 'Abel', sans-serif;
 }
+
+.imageForm{
+  @include atributos(100%, 70%)
+}

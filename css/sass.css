@@ -8,6 +8,11 @@ h1, h2, a, p, .dtl .copyright {
   font-family: "Abel", sans-serif;
 }
 
+.imageForm {
+  width: 100%;
+  opacity: 70%;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -68,6 +73,10 @@ ul li {
   display: none;
 }
 
+.navLinks--active {
+  font-weight: bold;
+}
+
 .footer {
   margin: 0;
   display: flex;
@@ -88,6 +97,11 @@ ul li {
   min-width: -moz-fit-content;
   min-width: fit-content;
   flex-wrap: wrap;
+  transition: all 10s;
+}
+.footer .redes .logos:hover {
+  height: 45px;
+  padding: 5px;
 }
 .footer .copyright {
   padding: 30px;
@@ -192,7 +206,7 @@ main {
 }
 
 .backgroundBabolat {
-  background: url(../images/backgroundBabolat.png);
+  background: url(../images/backgroundTecnifibre.png);
   background-size: cover;
   background-attachment: scroll;
 }
@@ -205,6 +219,12 @@ main {
 
 .backgroundTecnifibre {
   background: url(../images/backgroundTecnifibre.png);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.backgroundWilson {
+  background: url(../images/backgroundProducts.jpg);
   background-size: cover;
   background-attachment: scroll;
 }

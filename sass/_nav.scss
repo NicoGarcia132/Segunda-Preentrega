@@ -67,3 +67,7 @@ ul li{
     display: none;
 }
 
+.navLinks--active{
+    @extend .navLinks !optional;
+    font-weight: bold;
+}

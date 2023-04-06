@@ -15,7 +15,11 @@
             max-width: 100%;
             min-width: fit-content;
             flex-wrap: wrap;
-        
+            transition: all 10s;
+        }
+        .logos:hover {
+            height: 45px;
+            padding: 5px;
         }
     }
     .copyright{

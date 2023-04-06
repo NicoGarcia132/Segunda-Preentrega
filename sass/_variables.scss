@@ -1,3 +1,8 @@
 $brighter: #f8ddda;
 $medium: #fccfcb;
 $darker: #e0aea9;
+
+@mixin atributos($width, $opacity){
+    width: $width;
+    opacity: $opacity;
+}
