@@ -20,6 +20,7 @@ main{
     background: url(../images/backgroundAboutus.png);
     background-size: cover;
     background-attachment: scroll;
+    border-radius: 10px;
 }
 
 .products {
@@ -94,6 +95,7 @@ h2{
     justify-content: center;
     padding-top: 4.5rem;
     padding-bottom: 3rem;
+    align-items: center;
 }
 
 .contacto{

@@ -15,20 +15,46 @@
             max-width: 100%;
             min-width: fit-content;
             flex-wrap: wrap;
-            transition: all 10s;
+            transition: all;
         }
         .logos:hover {
             height: 45px;
-            padding: 5px;
+            padding: 0px;
         }
     }
     .copyright{
+        flex-direction: row;
+        width: 100%;
         padding: 30px;   
         color: rgb(0, 0, 0);
         opacity: 65%;
         font-family: 'Abel', sans-serif;
+        text-align: right;
+        font-size: 13px;
+    }
+    .footerEnd{
+    display: flex;
+    justify-content: end;
+}
+}
+.footerBrands{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: $brighter;
+    padding-top: 6rem;
+    img{
+        opacity: 40%;
+    }
+    img:hover{
+        transition: all, 0.7s;
+        opacity: 100%;
     }
 }
+
+
 
 
 

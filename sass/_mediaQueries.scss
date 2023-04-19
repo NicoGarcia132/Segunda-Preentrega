@@ -76,6 +76,14 @@
         align-items: center;
     }
 
+    .footerBrands{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .copyright{
+        text-align: center;
+    }
+
 
 }
 

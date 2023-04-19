@@ -55,10 +55,12 @@ ul li{
 
 .menuHorizontal > li:hover{
     background-color: #e09f98;
+    transition: all, 0.7s;
 }
 
 .menuVertical > li:hover{
     background-color: #e09f98;
+    transition: all, 0.5s;
 }
 
 
