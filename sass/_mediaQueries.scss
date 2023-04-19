@@ -103,4 +103,43 @@
     .tituloProductos{
         margin-top: 5rem;
     }
+    .abrirMenu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+
+    }
+    .cerrarMenu{
+        display: block;
+    }
+    .navBar{
+        display: none;
+    position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+
+    .navBar{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: end;
+        gap: 1rem;
+        top: 0;
+        right: 0;
+        padding: 2rem;
+        background-color: $brighter;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        
+    }
+    .visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
 }
