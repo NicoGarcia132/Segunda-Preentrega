@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, a, p, .dtl .copyright {
@@ -67,7 +68,7 @@ h1, h2, h3, a, p, .dtl .copyright {
 }
 .containerGenerals .contProductGenerals .productWilsonBlade .imagesWilsonB {
   width: auto;
-  height: 15rem;
+  height: 13rem;
 }
 .containerGenerals .contProductGenerals .productWilsonBlade .imagesWilsonB:hover {
   transform: scale(0.9);
@@ -546,21 +547,25 @@ h2 {
     right: 0;
   }
   .navBar {
+    width: -moz-fit-content;
+    width: fit-content;
     opacity: 0;
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    align-items: end;
+    align-items: center;
     gap: 1rem;
     top: 0;
     right: 0;
-    padding: 2rem;
+    padding: 3rem;
     background-color: #f8ddda;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   }
   .visible {
     opacity: 1;
     visibility: visible;
+  }
+  .formContact {
+    width: 100%;
   }
 }/*# sourceMappingURL=sass.css.map */

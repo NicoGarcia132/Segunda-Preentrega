@@ -123,16 +123,17 @@
     }
 
     .navBar{
+        width: fit-content;
         opacity: 0;
         visibility: hidden;
         display: flex;
         flex-direction: column;
-        position: absolute;
-        align-items: end;
+        // position: fixed;
+        align-items: center;
         gap: 1rem;
         top: 0;
         right: 0;
-        padding: 2rem;
+        padding: 3rem;
         background-color: $brighter;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         
@@ -141,5 +142,7 @@
         opacity: 1;
         visibility: visible;
     }
-
+    .formContact{
+        width: 100%;
+    }
 }

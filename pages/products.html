@@ -6,28 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Company that supplies all kind of items related to tennis and other racket sports">
     <meta name="keywords" content="Tennis, Rackets, Court, tennis balls, tennis supplies, head, babolat, wilson, tecnifibre">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/sass.css">
-    <title>Products</title>
+    <title>Down the line</title>
+    <head>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    </head>
 </head>
 
 <body>
     <header>
         <nav class="contenedorNav">
-            <div class="dtl">DTL</div>
-                <div class="navBar">
-                    <ul class="menuHorizontal">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./aboutus.html">About us</a></li>
+            <div class="dtl"><a href="../index.html">DTL</a></div>
+            <button id="abrir" class="abrirMenu"><i class="bi bi-list"></i></button>
+                <div class="navBar" id="navBar">
+                    <button id="cerrar" class="cerrarMenu"><i class="bi bi-x"></i></button>
+                    <ul class="menuHorizontal" id="cerrar">
+                        <li><a class="navLinks--active" href="../index.html">Home</a></li>
+                        <li><a href="../pages/aboutus.html">About us</a></li>
                         <li>
-                            <a class="navLinks--active" href="./products.html">Products</a>
+                            <a href="../pages/products.html">Products</a>
                             <ul class="menuVertical">
-                                <li><a href="./wilson.html">Wilson</a></li>
-                                <li><a href="./babolat.html">Babolat</a></li>
-                                <li><a href="./head.html">Head</a></li>
-                                <li><a href="./tecnifibre.html">Tecnifibre</a></li> 
+                                <li><a href="../pages/wilson.html">Wilson</a></li>
+                                <li><a href="../pages/babolat.html">Babolat</a></li>
+                                <li><a href="../pages/head.html">Head</a></li>
+                                <li><a href="../pages/tecnifibre.html">Tecnifibre</a></li> 
                             </ul>
                         </li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="../pages/contact.html">Contact</a></li>
                     </ul>
             </div>
         </nav>
@@ -84,6 +93,6 @@
             </div>
         </section>
     </footer>
-    
+    <script src="../js/main.js"></script>
 </body>
 </html>
