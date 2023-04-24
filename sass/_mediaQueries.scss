@@ -128,7 +128,7 @@
         visibility: hidden;
         display: flex;
         flex-direction: column;
-        position: fixed;
+        position: absolute;
         align-items: center;
         gap: 1rem;
         top: 0;
@@ -144,5 +144,6 @@
     }
     .formContact{
         width: 100%;
+        box-shadow: none;
     }
 }
